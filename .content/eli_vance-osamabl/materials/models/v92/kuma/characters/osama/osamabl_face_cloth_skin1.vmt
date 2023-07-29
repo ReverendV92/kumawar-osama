@@ -1,0 +1,37 @@
+
+vertexlitgeneric
+{
+
+	$basetexture models/v92/kuma/characters/osama/osamabl_face
+	$bumpmap dev/bump_normal
+	$lightwarptexture dev/identitylightwarp
+
+	$surfaceprop carpet
+
+	$phong					1
+	$phongboost				0.1
+	$phongfresnelranges		"[ 0.04 0.4 1 ]"
+
+	$detail models/v92/detail/cloth2
+	$detailscale 8
+	$detailblendfactor 0.7
+	$detailblendmode 0
+
+	$blendtintbybasealpha	1		// alpha channel of $basetexture: color mask.
+	$blendtintcoloroverbase	0		// blend mode. anything =/= 0 is ugly!
+
+	$color2 "[ 0.2 0.2 0.2 ]"
+	proxies
+	{
+
+		equals
+		{
+
+			srcvar1 $color2 // disable proxies
+			resultvar $color
+
+		}
+
+	}
+
+}

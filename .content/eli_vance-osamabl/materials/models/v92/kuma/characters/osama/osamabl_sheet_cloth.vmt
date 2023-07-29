@@ -1,0 +1,31 @@
+
+vertexlitgeneric
+{
+
+	$basetexture models/v92/kuma/characters/osama/osamabl_sheet
+	$bumpmap dev/bump_normal
+	$lightwarptexture dev/identitylightwarp
+
+	$surfaceprop carpet
+	$halflambert 1
+
+	$detail models/v92/detail/cloth2
+	$detailscale 8
+	$detailblendfactor 0.7
+	$detailblendmode 0
+
+	$color2 "[ 1 1 1 ]"
+	proxies
+	{
+
+		Equals
+		{
+
+			srcvar1 $color2 // disable proxies
+			resultVar $color
+
+		}
+
+	}
+
+}

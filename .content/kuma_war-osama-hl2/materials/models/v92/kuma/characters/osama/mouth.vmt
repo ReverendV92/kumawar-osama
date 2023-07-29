@@ -1,0 +1,9 @@
+
+vertexlitgeneric
+{
+
+	$basetexture models/humans/male/mouth
+
+	$halflambert 1
+
+}

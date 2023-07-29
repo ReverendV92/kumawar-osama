@@ -1,0 +1,18 @@
+{
+	"title"		:	"Enhanced Osama",
+	"type"		:	"model",
+	"tags"		:	[ "roleplay", "realism" ],
+	"ignore"	:
+	[
+		"*.psd",
+		"*.vcproj",
+		"*.svn*",
+		"*.txt*",
+		"*.dua*",
+		"*.ztmp*",
+		"*.jpg*",
+		"*.bmp*",
+		"*.vtf_bak*",
+		"*.tga*"
+	]
+}
