@@ -4,9 +4,9 @@ The founder of Al-Qaeda, Osama bin Laden, as Eli Vance. A companion piece to [my
 Works for HL2/episodes. Includes facial flexes, monitor version for EP1, and attachments for EP2.
 
 # Credit Where It's Due
-V92 - Creator, "monitor" model
-Kuma Reality Games - Original assets
-GmodPiggo - Idea
+* V92 - Creator, "monitor" model
+* Kuma Reality Games - Original assets
+* GmodPiggo - Idea
 
 # Other Versions
 * [Garry's Mod (Replacement)](https://steamcommunity.com/sharedfiles/filedetails/?id=3003380231)
